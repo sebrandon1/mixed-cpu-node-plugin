@@ -14,3 +14,9 @@ It populates shared-cpus as a device which can be asked by pods that requires th
  - Support cgroupv2 - DONE
 
 ![](docs/MixedCPUSWorkloadsFlow.png)
+
+
+# NOTE:
+This plugin was deprecated.
+The same capabilities were merged directly into CRI-O 
+See: [https://github.com/openshift/enhancements/commit/76ea48a88bca15ef6157aacf90b8544a763e6075 ](https://github.com/openshift/enhancements/pull/1396)
